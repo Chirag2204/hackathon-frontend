@@ -1,0 +1,58 @@
+main {
+  min-height: 80vh;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition-property: all;
+  transition: 0.5s;
+  box-shadow: 5px 10px 8px #888888;
+}
+.brandName {
+  text-decoration: none;
+}
+
+.xyz {
+  justify-content: flex-end;
+}
+
+.product-rating {
+  margin: 20px 0;
+}
+
+.carousel {
+  text-align: center;
+  height: 400px;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  transition: transform 2s ease, opacity 0.5s ease-out;
+}
+
+.carousel-item-next,
+.carousel-item-previous,
+.carousel-item-active {
+  display: flex;
+  text-align: center;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption-h2 {
+  color: white;
+  margin: 10px;
+}
+.carousel img {
+  height: 300px;
+  width: 70%;
+
+  margin: 70px;
+}
+.carousel a {
+  margin: 0 auto;
+}
+.footer {
+  background-color: grey;
+  color: white;
+}
